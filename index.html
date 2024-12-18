@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isacc Mart - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- Header -->
+<header class="bg-light p-3 border-bottom sticky-top">
+    <div class="container d-flex justify-content-between align-items-center">
+        <a href="index.html" class="text-decoration-none text-dark fs-4">
+            <img src="logo.jpg" alt="Isacc Mart Logo" width="40"> Isacc Mart
+        </a>
+        <div>
+            <a href="#" class="text-dark mx-2"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="text-dark mx-2"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="text-dark mx-2"><i class="bi bi-linkedin"></i></a>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main>
+    <!-- Banner -->
+    <div class="bg-primary text-white text-center py-4">
+        <h1>Welcome to Isacc Mart!</h1>
+        <p>Your one-stop shop for fresh, quality groceries.</p>
+    </div>
+
+    <!-- Carousel -->
+
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="produce.jpg" class="d-block w-100" style="max-height: 400px; object-fit: cover;" alt="Produce">
+                <div class="carousel-caption">
+                    <h5>Fresh Produce</h5>
+                    <p>Starting at $1.99/lb</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="deli.jpg" class="d-block w-100" style="max-height: 400px; object-fit: cover;" alt="Deli">
+                <div class="carousel-caption">
+                    <h5>Quality Deli</h5>
+                    <p>Cheese, Turkey, and More!</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="bakery.jpg" class="d-block w-100" style="max-height: 400px; object-fit: cover;" alt="Bakery">
+                <div class="carousel-caption">
+                    <h5>Fresh Bakery</h5>
+                    <p>Artisan Breads and Treats</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="dairy.jpg" class="d-block w-100" style="max-height: 400px; object-fit: cover;" alt="Dairy">
+                <div class="carousel-caption">
+                    <h5>Premium Dairy</h5>
+                    <p>Milk, Ice Cream, and More</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Department Links -->
+    <div class="container my-5">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="produce.jpg" class="card-img-top" alt="Produce">
+                    <div class="card-body">
+                        <h5 class="card-title">Produce</h5>
+                        <p class="card-text">Fresh fruits and vegetables.</p>
+                        <a href="produce.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="deli.jpg" class="card-img-top" alt="Deli">
+                    <div class="card-body">
+                        <h5 class="card-title">Deli</h5>
+                        <p class="card-text">Quality meats and cheeses.</p>
+                        <a href="deli.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="grocery.jpg" class="card-img-top" alt="Grocery">
+                    <div class="card-body">
+                        <h5 class="card-title">Grocery</h5>
+                        <p class="card-text">Pantry essentials and more.</p>
+                        <a href="grocery.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="dairy.jpg" class="card-img-top" alt="Dairy">
+                    <div class="card-body">
+                        <h5 class="card-title">Dairy</h5>
+                        <p class="card-text">Milk, eggs, and ice cream.</p>
+                        <a href="dairy.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card">
+                    <img src="bakery.jpg" class="card-img-top" alt="Bakery">
+                    <div class="card-body">
+                        <h5 class="card-title">Bakery</h5>
+                        <p class="card-text">Freshly baked breads and cakes.</p>
+                        <a href="bakery.html" class="btn btn-primary">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>Contact us: <a href="#" class="text-white">info@isaccmart.com</a> | +1 (555) 555-5555</p>
+    <p>&copy; 2024 Isacc Mart. All Rights Reserved. | <a href="sitemap.html" class="text-white">Sitemap</a></p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

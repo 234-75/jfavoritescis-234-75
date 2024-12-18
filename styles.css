@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header a {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
